@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Başkent Lojistik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" >
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Anasayfa</a>
+            <a href="hakkında.html">Hakkımızda</a>
+            <a href="iletişim.html" class="active">İletişim</a>
+            <div class="dropdown">
+                <span>Hizmetler</span>
+                <div class="dropdown-content">
+                    <a href="tasimacilik.html">Taşımacılık Hizmetleri</a>
+                    <a href="depoculuk.html">Depoculuk Hizmetleri</a>
+                    <a href="diger.html">Diğer Hizmetler</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <span>Menü</span>
+                <div class="dropdown-content">
+                    <a href="sıksoru.html">Sık Sorulan Sorular</a>
+                    <a href="gizlilik.html">Gizlilik Politikası</a>
+                    <a href="kullanici.html">Kullanıcı Sözleşmesi</a>
+                    <a href="kvkk.html">KVKK</a>
+                </div>
+              </div>
+        </nav>
+        <div class="buttons">
+        <button>
+            <i class="fas fa-bars"></i>
+        </button>
+        </div>
+    </header>
+    <div class="container">
+        <form id="contact" action="" method="">
+            <h2 style="text-align: center;">İletişim Bilgileriniz</h2>
+            <div class="form-control">
+                <input placeholder="Adınız Soyadınız" type="text">
+            </div>
+            <div class="form-control">
+                <input placeholder="E-Posta Adresiniz" type="text">
+            </div>
+            <div class="form-control">
+                <input placeholder="Konu" type="text">
+            </div>
+            <div class="form-control">
+                <textarea placeholder="Lütfen Mesajınızı Buraya Yazın.."></textarea>
+            </div>
+            <div class="form-control">
+                <button name="submit" type="submit" id="submit" onclick="uyari()">GÖNDER</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function uyari() {
+            alert("Teşekkürler mesajınız alınmıştır. En kısa süre içerisinde dönüş sağlanılacaktır.")
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>

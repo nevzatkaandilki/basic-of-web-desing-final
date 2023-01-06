@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    background-color:brown;
+    overflow-x: hidden;
+}
+
+.header .logo img{
+    height: 7rem;
+}
+
+.header{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1000;
+}
+
+.header .navbar a {
+    cursor: pointer;
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: black;
+    border-bottom: 0.1rem solid transparent;
+}
+
+.header .navbar .active,
+.header .navbar a:hover{
+    border-color: red;
+    padding-bottom: 0.3rem;
+}
+
+.header .buttons button{
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 1.4rem;
+    background-color: transparent;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    padding: 16px 20px;
+    z-index: 1;
+  }
+
+  .dropdown .dropdown-content a{
+    font-size: 1.4rem;
+    display: block;
+    margin: 1rem 1rem;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+ .yazilar{
+    color: white;
+    font-size: large;
+  }
+  .baslik {
+    text-align: center;
+  }
+  .hakkinda {
+    font-size: 30px; 
+    text-align: center;
+    color: white;
+  }
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#contact {
+    background: white;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+} 
+.form-control{
+    border: none;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid wheat;
+    background: white;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+    border: 1px solid grey;
+}
+ 
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+}
+ 
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: grey;
+    color: white;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+#contact button[type="submit"]:hover {
+    background: red;
+    transition: background-color 0.4s ease-in-out;
+} 
+.fiyat {
+    font-size: 50px;
+    background-color: grey;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 600px;
+    bottom: -140px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.fiyat a{
+    color: white;
+    cursor: pointer;
+}
+
+.fiyat:hover{
+  background-color: red;
+  color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#resim {
+    position: relative;
+    left: -50px;
+    bottom: 0px;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    margin: 0;
+}
+
+.kara {
+    position: absolute;
+    padding-left:  30px;
+    bottom: -140px;
+}
+
+
+.karayazi{
+    position: absolute;
+    padding-left: 60px;
+    bottom: 120px;
+    font-size: 20px;
+}
+
+
+.hava {
+    position: absolute;
+    padding-left:  570px;
+    bottom: -160px;
+}
+
+.havayazi{
+    position: absolute;
+    padding-left: 39%;
+    bottom: -180px;
+    font-size: 20px;
+}
+
+.deniz {
+    position: absolute;
+    left: 1100px;
+    bottom: -180px;
+}
+
+.denizyazi {
+    position: absolute;
+    padding-left: 74%;
+    bottom: -200px;
+    font-size: 20px;
+}
+
+.depo1 {
+    position: absolute;
+    padding-left: 2%;
+    bottom: 1%;
+}
+.depoyazi1 {
+    position: absolute;
+    padding-left: 9%;
+    bottom: 35%;
+    font-size: 20px;
+}
+
+.depo2 {
+    position: absolute;
+    padding-left: 37%;
+    bottom: -4%;
+}
+
+.depoyazi2 {
+    position: absolute;
+    padding-left: 45%;
+    bottom: -7%;
+    font-size: 20px;
+}
+
+.depo3 {
+    position: absolute;
+    padding-left: 72%;
+    bottom: -4%;
+    font-size: 20px;
+}
+
+.depoyazi3 {
+    position: absolute;
+    padding-left: 80%;
+    bottom: 30%;
+    font-size: 20px;
+}
